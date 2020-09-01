@@ -12,21 +12,21 @@ interface RepositoryParams {
 }
 
 interface Repository {
-  fullName: string;
+  full_name: string;
   description: string;
-  stargazersCount: number;
-  forksCount: number;
-  openIssuesCount: number;
+  stargazers_count: number;
+  forks_count: number;
+  open_issues_count: number;
   owner: {
     login: string;
-    avatarUrl: string;
+    avatar_url: string;
   };
 }
 
 interface Issue {
   id: number;
   title: string;
-  htmlURL: string;
+  html_url: string;
   user: {
     login: string;
   };
@@ -71,25 +71,25 @@ const Repository: React.FC = () => {
         <RepositoryInfo>
           <header>
             <img
-              src={repository.owner.avatarUrl}
+              src={repository.owner.avatar_url}
               alt={repository.owner.login}
             />
             <div>
-              <strong>{repository.fullName}</strong>
+              <strong>{repository.full_name}</strong>
               <p>{repository.description}</p>
             </div>
           </header>
           <ul>
             <li>
-              <strong>{repository.stargazersCount}</strong>
+              <strong>{repository.stargazers_count}</strong>
               <span>Stars</span>
             </li>
             <li>
-              <strong>{repository.forksCount}</strong>
+              <strong>{repository.forks_count}</strong>
               <span>Forks</span>
             </li>
             <li>
-              <strong>{repository.openIssuesCount}</strong>
+              <strong>{repository.open_issues_count}</strong>
               <span>Issues abertas</span>
             </li>
           </ul>
@@ -98,7 +98,7 @@ const Repository: React.FC = () => {
 
       <Issues>
         {issues.map(issue => (
-          <a key={issue.id} href={issue.htmlURL}>
+          <a key={issue.id} href={issue.html_url}>
             <div>
               <strong>{issue.title}</strong>
               <p>{issue.user.login}</p>

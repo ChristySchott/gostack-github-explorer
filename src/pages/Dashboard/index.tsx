@@ -8,7 +8,7 @@ import logoImage from '../../assets/logo.svg';
 import { Title, Image, Form, Repositories, Error } from './styles';
 
 interface Repository {
-  fullName: string;
+  full_name: string;
   description: string;
   owner: {
     login: string;
@@ -79,15 +79,15 @@ const Dashboard: React.FC = () => {
       <Repositories>
         {repositories.map(repository => (
           <Link
-            key={repository.fullName}
-            to={`/repositories/${repository.fullName}`}
+            key={repository.full_name}
+            to={`/repositories/${repository.full_name}`}
           >
             <img
               src={repository.owner.avatar_url}
               alt={repository.owner.login}
             />
             <div>
-              <strong>{repository.fullName}</strong>
+              <strong>{repository.full_name}</strong>
               <p>{repository.description}</p>
             </div>
 
