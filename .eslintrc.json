@@ -48,6 +48,12 @@
         "tsx": "never"
       }
     ],
+    "@typescript-eslint/explicit-function-return-type": [
+      "error",
+      {
+        "allowExpressions": true
+      }
+    ],
     "prettier/prettier": "error"
   },
   "settings": {
