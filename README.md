@@ -1,44 +1,57 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img alt="Languagues" src="https://img.shields.io/github/languages/count/ChristySchott/gostack-github-explorer">
+  <img alt="Top Languague" src="https://img.shields.io/github/languages/top/ChristySchott/gostack-github-explorer">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/ChristySchott/gostack-github-explorer">
+  <a href="https://github.com/ChristySchott/gostack-github-explorer/commits/master">
+    <img alt="Last commit date" src="https://img.shields.io/github/last-commit/ChristySchott/gostack-github-explorer">
+  </a>
+   <a href="https://github.com/ChristySchott/gostack-github-explorer/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/ChristySchott/gostack-github-explorer">
+  </a>
+  <img alt="License" src="https://img.shields.io/github/license/ChristySchott/gostack-github-explorer">
+</p>
 
-## Available Scripts
+<p align="center">
 
-In the project directory, you can run:
+  <a href="https://github.com/ChristySchott" target="_blank">
+    <img alt="Made by Christy Schott" src="https://img.shields.io/badge/made%20by-Guilherme_Teixeira-informational">
+  </a>
+  <a href="https://github.com/ChristySchott" target="_blank" >
+    <img alt="Github - Christy Schott" src="https://img.shields.io/badge/Github--%23F8952D?style=social&logo=github">
+  </a>
+  <a href="https://www.linkedin.com/in/christy-hauschild/" target="_blank" >
+    <img alt="Linkedin - Christy Schott" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
+  </a>
+  <a href="mailto:christyhauschild@gmail.com" target="_blank" >
+    <img alt="Email - Christy Schott" src="https://img.shields.io/badge/Email--%23F8952D?style=social&logo=gmail">
+  </a>
 
-### `yarn start`
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 📜 About the project
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+This project was proposed by Rocketseat on Bootcamp GoStack. The goal is develop an app to explore Github repositóries, where you can add a repository and view its listed issues.
 
-### `yarn test`
+<a align="center" href="https://githubexp.netlify.app/" target="_blank">
+  <img alt="github" src="https://user-images.githubusercontent.com/34657005/82603591-50fffd00-9b89-11ea-8c40-86000830e4ae.gif"/>
+</a>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 Technologies
+- **[React.js](https://reactjs.org/)**
+- *[React Router DOM](https://reacttraining.com/react-router/web/guides/quick-start)*
+- *[Styled-Components](https://styled-components.com/)*
+- *[React Icons](https://react-icons.netlify.com/#/)*
+- *[Axios](https://nodemon.io/)*
+- *[ESLint](https://eslint.org/)*
+- *[Prettier](https://prettier.io/)*
+- *[EditorConfig](https://editorconfig.org/)*
 
-### `yarn build`
+## ⚙️ Install and Usage
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+# Install all dependencies with Yarn
+yarn
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Run frontend with Yarn
+yarn start
+```
