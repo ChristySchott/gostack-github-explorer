@@ -11,6 +11,6 @@ const Routes: React.FC = () => (
       <Route path="/repository" component={Repository} />
     </Switch>
   </BrowserRouter>
-)
+);
 
 export default Routes;
