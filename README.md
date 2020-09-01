@@ -1,20 +1,24 @@
+<img alt="GoStack" src="https://storage.googleapis.com/golden-wind/bootcamp-gostack/header-desafios-new.png" />
+
+<h3 align="center">
+  Github Explorer
+</h3>
+
 <p align="center">
-  <img alt="Languagues" src="https://img.shields.io/github/languages/count/ChristySchott/gostack-github-explorer">
-  <img alt="Top Languague" src="https://img.shields.io/github/languages/top/ChristySchott/gostack-github-explorer">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/ChristySchott/gostack-github-explorer">
-  <a href="https://github.com/ChristySchott/gostack-github-explorer/commits/master">
-    <img alt="Last commit date" src="https://img.shields.io/github/last-commit/ChristySchott/gostack-github-explorer">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ChristySchott/gostack-github-explorer?color=%2304D361">
+
+  <a href="https://rocketseat.com.br">
+    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Christy-%2304D361">
   </a>
-   <a href="https://github.com/ChristySchott/gostack-github-explorer/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/ChristySchott/gostack-github-explorer">
+
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
+
+  <a href="https://github.com/ChristySchott/gostack-github-explorer/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/ChristySchott/gostack-github-explorer?style=social">
   </a>
 </p>
 
 <p align="center">
-
-  <a href="https://github.com/ChristySchott" target="_blank">
-    <img alt="Made by Christy Schott" src="https://img.shields.io/badge/made%20by-Christy_Schott-informational">
-  </a>
   <a href="https://github.com/ChristySchott" target="_blank" >
     <img alt="Github - Christy Schott" src="https://img.shields.io/badge/Github--%23F8952D?style=social&logo=github">
   </a>
@@ -27,12 +31,12 @@
 
 </p>
 
-## 📜 About the project
+## :rocket: About the project
 
 This project was proposed by Rocketseat on Bootcamp GoStack. The goal is develop an app to explore Github repositóries, where you can add a repository and view its listed issues.
 
-<a align="center" href="https://githubexp.netlify.app/" target="_blank">
-  <img alt="github" src="https://user-images.githubusercontent.com/34657005/82603591-50fffd00-9b89-11ea-8c40-86000830e4ae.gif"/>
+<a align="center" href="https://githubexp.netlify.app/" target="_blank" style="width: 200px;">
+  <img alt="github" style="width: 200px;" src="https://user-images.githubusercontent.com/34657005/82603591-50fffd00-9b89-11ea-8c40-86000830e4ae.gif"/>
 </a>
 
 ## 🛠 Technologies
