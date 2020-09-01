@@ -1,7 +1,10 @@
-import styled from 'styled-components';
+/* eslint-disable prettier/prettier */
+import styled, { css } from 'styled-components';
 import { shade } from 'polished';
 
-export const Container = styled.div``;
+interface FormProps {
+  hasError: boolean;
+}
 
 export const Title = styled.h1`
   font-size: 48px;
@@ -14,7 +17,7 @@ export const Title = styled.h1`
 
 export const Image = styled.img``;
 
-export const Form = styled.form`
+export const Form = styled.form<FormProps>`
   margin-top: 40px;
   max-width: 700px;
 
@@ -27,6 +30,13 @@ export const Form = styled.form`
     border: 0;
     border-radius: 5px 0 0 5px;
     color: #3a3a3a;
+    border: 2px solid #fff;
+
+    ${props =>
+    props.hasError &&
+    css`
+        border-color: #c53030;
+      `}
 
     &::placeholder {
       color: #a8a8b3;
