@@ -8,13 +8,12 @@
    <a href="https://github.com/ChristySchott/gostack-github-explorer/issues">
     <img alt="Repository issues" src="https://img.shields.io/github/issues/ChristySchott/gostack-github-explorer">
   </a>
-  <img alt="License" src="https://img.shields.io/github/license/ChristySchott/gostack-github-explorer">
 </p>
 
 <p align="center">
 
   <a href="https://github.com/ChristySchott" target="_blank">
-    <img alt="Made by Christy Schott" src="https://img.shields.io/badge/made%20by-Guilherme_Teixeira-informational">
+    <img alt="Made by Christy Schott" src="https://img.shields.io/badge/made%20by-Christy_Schott-informational">
   </a>
   <a href="https://github.com/ChristySchott" target="_blank" >
     <img alt="Github - Christy Schott" src="https://img.shields.io/badge/Github--%23F8952D?style=social&logo=github">
