@@ -3,7 +3,7 @@ import { FiChevronRight } from 'react-icons/fi';
 import api from '../../services/api';
 
 import logoImage from '../../assets/logo.svg';
-import { Title, Image, Form, Repositories } from './styles';
+import { Title, Image, Form, Repositories, Error } from './styles';
 
 interface Repository {
   fullName: string;
@@ -26,6 +26,7 @@ const Dashboard: React.FC = () => {
 
     if (!newRepo) {
       setInputError('Digite o autor/nome do repositório');
+      return;
     }
 
     try {
@@ -53,6 +54,8 @@ const Dashboard: React.FC = () => {
         />
         <button type="submit">Pesquisar</button>
       </Form>
+
+      {inputError && <Error>{inputError}</Error>}
 
       <Repositories>
         {repositories.map(repository => (
