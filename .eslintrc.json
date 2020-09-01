@@ -30,6 +30,7 @@
   ],
   "rules": {
     "react-hooks/rules-of-hooks": "error",
+    "camelcase": "off",
     "react-hooks/one-expression-per-line": "off",
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-filename-extension": [
@@ -55,7 +56,7 @@
         "allowExpressions": true
       }
     ],
-    "prettier/prettier": "error"
+    "prettier/prettier": "off"
   },
   "settings": {
     "import/resolver": {

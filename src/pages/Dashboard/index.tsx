@@ -12,7 +12,7 @@ interface Repository {
   description: string;
   owner: {
     login: string;
-    avatarUrl: string;
+    avatar_url: string;
   };
 }
 
@@ -83,7 +83,7 @@ const Dashboard: React.FC = () => {
             to={`/repositories/${repository.fullName}`}
           >
             <img
-              src={repository.owner.avatarUrl}
+              src={repository.owner.avatar_url}
               alt={repository.owner.login}
             />
             <div>
